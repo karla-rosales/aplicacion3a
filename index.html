@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tercera aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/theme.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/antiguedad1.jpg','imagenes/volcan.jpg','imagenes/gifvolcan.gif')">
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+     <h1>VOLCAN POPOCATÉPETL</h1>
+   </div>
+   <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:960px;height:360px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" 
+marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+   
+   <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Tamaño del volcan Popocatépetl</h1>
+         <div>
+         <p>Tiene una forma cónica simétrica y está unido por la parte norte con el Iztaccíhuatl mediante un paso montañoso conocido como Paso de Cortés. El volcán tiene glaciares perennes cerca de la boca del cono, en la punta de la montaña. Es el segundo volcán más alto de México, con una altitud máxima de 5500 metros sobre el nivel del mar tiene un diámetro de 25 km en su base y la cima es el corte elíptico de un cono y tiene una orientación noreste-suroeste. La distancia entre las paredes de su cráter varía entre los 660 y los 840 m., sólo después del Citlaltépetl de 5610 msnm.1 2
+  </p>
+  <br>
+  </div>
+   <div>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/volcan.jpg',1)"><img src="imagenes/volcan2.jpg" width="900" height="600" id="Image13"></a> 
+       </div>
+    </div>   
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Antigüedad del volcan Popocatépetl</h1>
+         <div>
+         <p>El Popocatépetl es un estratovolcán, y los estudios paleomagnéticos que se han hecho de él indican que tiene una edad aproximada de 730 000 años.
+ existe una gran cantidad de registros desde la antigüedad sobre los periodos de actividad del volcán, e incluso está registrada una erupción en 1927, que fue artificialmente provocada por la dinamitación del cráter para extraer azufre del mismo. La última erupción violenta del volcán se registró del 18 al 19 diciembre de 2000. El 25 de diciembre de 2005 se produjo en el cráter del volcán una nueva explosión, que provocó una columna de humo y cenizas de 3 kilómetros de altura y la expulsión de lava.
+</p>
+<br>
+
+        </div>
+        <div>
+        
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/antiguedad1.jpg',1)"><img src="imagenes/antiguedad.jpg" width="410" height="235" id="Image14"></a> 
+     
+         </div>
+        </div>
+       <div data-role="collapsible" data-content-theme="false">
+        <h1>Localización del volcan Popocatépetl</h1>
+         <div>
+   
+    <p>El Popocatépetl es un volcán activo localizado en el centro de México, en los límites territoriales de los estados de Morelos, Puebla yMéxico. Se localiza a unos 72 km al sureste de la Ciudad de México, 43 km de Puebla, 63 km de Cuernavaca, y 53 km de Tlaxcala.3
+
+         </p>
+         <br>
+         </div>
+<div>
+<img src="imagenes/localizacion.jpg" width="50%" />
+</div>
+</div>
+<br>
+<div>
+
+
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Monitoreo</h2>
+    <p>muestra informacion sobre el monitoreo del volcan popocatepetl</p>
+    
+     </a>
+    </li>
+   
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Medidas de prevención</h2>
+      <p>muestra medidas de prevencion en caso de ceniza y estados afectados</p>
+      </a>
+    </li>
+   
+   <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Volcanes en el Mundo</h2>
+    <p>muestra informacion sobre 2 volcanes del mundo</p>
+      </a>
+    </li>
+  </ul>
+</div>
+
+</div>
+  <div data-role="footer" align="center" data-theme="b">
+  <div>
+    <img src="imagenes/icon.ico" width="46" height="46" />
+    </div>
+    <div>
+    <h4>Aplicación Tres</h4>
+    <h4>Karla Rosales Rosales.</h4>
+  </div>
+  </div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="c">
+    <h1>MONITOREO</h1>
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>Actividad</h1>
+         <div>
+   
+    <p>El Popocatépetl ha estado desde siempre en actividad, a pesar de haber estado en reposo durante buena parte de la segunda mitad del siglo XX. En 1991 se inició un incremento en su actividad y a partir de 1993 las fumarolas eran ya claramente visibles desde distancias de alrededor de 50 kilómetros.
+
+         </p>
+         <br>
+         </div>
+<div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/gifvolcan.gif',1)"><img src="imagenes/actividad2.jpg" width="570" height="386" id="Image"></a> </div>
+</div>
+    
+   <div data-role="content" align="center">
+    <div>
+     <h2>Abril 12 11:00 h (Abril 12 16:00 GMT) </h2>
+     <p> <div><img src="imagenes/actividad1.png" width="80%" height="40%" /></div>
+     En las últimas 24 horas, por medio de los registros sísmicos del sistema de monitoreo del volcán Popocatépetl, se identificaron 110 exhalaciones de baja intensidad que solo fueron acompañadas por emisiones de vapor de agua, gases y ligeras cantidades de ceniza. 
+     
+     <p><div><img src="imagenes/actividad3.png" width="80%" height="40%" /></div>Adicionalmente se presentaron 2 explosiones el día de ayer a las 22:21 h y a las 23:28 h. Se tuvo visibilidad parcial y se observó una muy débil emisión de vapor de agua y gas que los vientos dispersaron al noreste. 
+
+Durante la noche se observó ligera incandescencia que aumentaba al momento de algunas de las exhalaciones. </p>
+
+<p><div><img src="imagenes/actividad2.png" width="80%" height="40%" /></div>
+
+<p>Desde hoy por la mañana y hasta el momento de este informe se ha observado una ligera emisión de vapor de agua y gas que los vientos dispersan al noreste. 
+  
+  Los demás parámetros de monitoreo permanecen sin cambios importantes.
+  </p>
+  
+  
+  
+</p>
+<p>para mas informacion da <a href="http://www.cenapred.unam.mx:8080/monitoreoPopocatepetl/">clik aqui </a></p>
+    </div>
+    </div>
+   <div data-role="footer" data-theme="a">
+     <h4>Aplicacion Tres, Karla rosales rosales</h4>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="b">
+    <h1>MEDIDAS DE PREVENCIÓN</h1>
+    </div>
+    
+   <div data-role="content" align="center">
+    <div>
+    <h2>El CENAPRED exhorta a NO ACERCARSE al volcán y sobre todo al cráter, por el peligro que implica la caída de fragmentos balísticos </h2>
+
+
+<p>El Semáforo de Alerta Volcánica del Popocatépetl se encuentra en Amarillo Fase 2. 
+ </p><img src="imagenes/medida.jpg" width="70%" height="30%" />
+
+
+<p>1. Que continúe la actividad explosiva de escala baja a intermedia. </p>
+
+<p>2. Lluvias de ceniza leves a moderadas en poblaciones cercanas. </p>
+
+<p>3. Posibilidad de flujos piro clásticos y flujos de lodo de corto alcance.</p>
+
+</p>
+ 
+</div>
+ <div data-role="collapsible" data-content-theme="false">
+        <h1>caida de ceniza</h1>
+         
+<div>
+<img src="imagenes/cenizapre.jpg" width="50%" />
+</div>
+</div>
+    </div>
+     <div data-role="collapsible" data-content-theme="false">
+        <h1>lugares afectados</h1>
+         <div>
+         <br>
+         </div>
+<div>
+<img src="imagenes/lugar.gif" width="80%" />
+</div>
+</div>
+    </div>
+<div data-role="footer" data-theme="a">
+     <h4>Aplicacion tres, Karla rosales rosales</h4>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="b">
+    <h1>VOLCANES DEL MUNDO</h1>
+    </div>
+<div data-role="content" align="center">
+    <div>
+     <h2>MAUNA KEA</h2>
+     <p>es un volcán inactivo ubicado en Hawái, primero en la zona por su altura. Es uno de los cinco volcanes que forman la isla de Hawái, junto con los volcanes Mauna Loa, Hualalai, Kohala y Kīlauea.
+Es, con 10 203 metros, uno de los volcanes más altos del mundo si se mide desde su base, contando la parte que tiene bajo el mar. Su nombre significa "montaña blanca" en hawaiano, en referencia a que durante el invierno su cumbre está nevada.
+Dentro de los diferentes tipos de volcán, es un volcán en escudo. Su última erupción fue hace más de 3500 años. Mide unos 4205 msnm pero la mayor parte de su estructura está debajo del agua, con unos 6000 m adicionales (en total 10 203 m), lo que lo convierte en la montaña más alta del mundo medida desde su base. El clima en su cima es frío, lo que favorece la existencia de glaciares que van desde el cráter hasta la falda del volcán.
+En general, el Mauna Kea es un lugar ideal para observaciones astronómicas dado que su cumbre se encuentra más arriba del 40 % de la atmósfera, el 90 % del vapor de agua (nubes) y la capa de inversión térmica, lo que permite unas 300 noches despejadas al año. Su geología hace muy fácil llevar carreteras hasta la cumbre y abastecer observatorios astronómicos.
+</p><img src="imagenes/mauna2.jpg" width="80%" />
+    
+<h2>Ilamatepec o de Santa Ana</h2> 
+<p>ubicado en el departamento homónimo en El Salvador, tiene una altura de 2.381 msnm y es el más alto de este país.1 Sus últimas erupciones ocurrieron en 1920, en 1904 y en2005.2
+Forma parte de la cordillera de Apaneca, dentro de un bosque nuboso montañoso tropical, en una región cafetalera a unos 65 kilómetros al oeste de la capital. Las principales actividades de la región son la agricultura y el turismo.
+En el mes de agosto de 2005 presentó la actividad típica de muchos volcanes previa a una erupción. El sábado 1 de octubre de 2005 a las 8:00 (GMT-6) hora local, hubo una explosión en la que el volcán expulsó por los cielos ceniza y rocas. Asimismo, un alud de agua caliente 
+Este volcán ha sido conocido el supuesto nombre aborigen nahuat de Lamatepec, que tendría el significado de cerro padre. De acuerdo al historiador Jorge Lardé y Larín: «no hay documento auténtico alguno en que conste que su nombre indígena haya sido Lamatepeque o Amatepeque ».3 Tal denominación fue concebida por el coronel y licenciado Manuel Fernández en su obra Bosquejo físico, histórico y político de la República del Salvador de 1869.
+comenzó a descender del cráter matando al menos dos personas y forzando la evacuación de la zona de San Blas.
+<h2>Dato curioso:</h2>
+En la cima de de el volcán puede encontrarse Páramo andino el cual se encuentra desde altitudes de aproximadamente 3.000 msnm hasta la línea de nieves perpetuas, aproximadamente 4.300 msnm,este volcán tiene una altura de 2381msnm
+</p><img src="imagenes/santaana.jpg" width="80%" />
+  </div>
+    </div>
+<div data-role="footer" data-theme="a">
+     <h4>Aplicacion tres, Karla rosales rosales</h4>
+   </div>
+
+
+</body>
+</html>
